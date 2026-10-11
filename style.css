@@ -1,0 +1,45 @@
+/*PaisaTrack - Global Style */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Arial', sans-serif;
+background-color:#f4f7fb;
+color:#222;
+}
+/*Navbar*/
+
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:#1e293b;
+    padding:20px 40px;
+}
+.logo{
+    color:white;
+    font-size:20px;
+    font-weight:bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 25px;
+
+}
+.nav-links a {
+    color:white;
+    text-decoration:none;
+    font-size:16px;
+}
+/*Navbar Hover Effect*/
+
+.nav-links a{
+    transition: color 0.3s ease;
+}
+.nav-links a:hover{
+    color:#38bdf8;
+}
